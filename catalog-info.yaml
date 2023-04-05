@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Jenkins_Trigger"
+  description: "Jenkins_Trigger"
+  annotations:
+    github.com/project-slug: sohemokashi/Jenkins_Trigger
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
